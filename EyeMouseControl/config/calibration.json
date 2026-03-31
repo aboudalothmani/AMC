@@ -1,0 +1,164 @@
+{
+  "version": 3,
+  "created_at": "2026-03-31T20:39:57",
+  "monitor_index": 0,
+  "monitor_bounds": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080,
+    "index": 0
+  },
+  "input_transform": {
+    "invert_x": true,
+    "invert_y": true,
+    "eye_weight": 1.35,
+    "head_weight_x": 0.95,
+    "head_weight_y": 0.85,
+    "vertical_gain": 1.2,
+    "preferred_model": "auto",
+    "order": "center-out"
+  },
+  "mapping": {
+    "name": "affine",
+    "coefficients": [
+      [
+        -1799.6324462890625,
+        1649.92236328125
+      ],
+      [
+        7506.2548828125,
+        -5488.3154296875
+      ],
+      [
+        -2357.8251953125,
+        2805.47509765625
+      ]
+    ]
+  },
+  "mean_error_px": 557.577880859375,
+  "max_error_px": 852.2254638671875,
+  "cross_validation_error_px": 833.9657897949219,
+  "quality_mean": 0.5782555310676928,
+  "stability_mean": 0.013672089178604274,
+  "validation_state": "needs_review",
+  "pairs": [
+    {
+      "screen_point": [
+        960.0,
+        540.0
+      ],
+      "gaze_point": [
+        0.5990069508552551,
+        0.6188902854919434
+      ],
+      "tracking_quality": 0.5679144965277778,
+      "stability": 0.015070044125119844,
+      "effective_samples": 24
+    },
+    {
+      "screen_point": [
+        960.0,
+        150.0
+      ],
+      "gaze_point": [
+        0.5704581141471863,
+        0.5892087817192078
+      ],
+      "tracking_quality": 0.5656257233796296,
+      "stability": 0.013312225773309668,
+      "effective_samples": 24
+    },
+    {
+      "screen_point": [
+        960.0,
+        930.0
+      ],
+      "gaze_point": [
+        0.6304067373275757,
+        0.5253903269767761
+      ],
+      "tracking_quality": 0.5758927266081871,
+      "stability": 0.013304958904260084,
+      "effective_samples": 19
+    },
+    {
+      "screen_point": [
+        1689.5999755859375,
+        540.0
+      ],
+      "gaze_point": [
+        0.42683911323547363,
+        0.560903787612915
+      ],
+      "tracking_quality": 0.5951284722222222,
+      "stability": 0.015955078369006514,
+      "effective_samples": 20
+    },
+    {
+      "screen_point": [
+        230.39999389648438,
+        540.0
+      ],
+      "gaze_point": [
+        0.3682636618614197,
+        0.5245245695114136
+      ],
+      "tracking_quality": 0.5624418780193237,
+      "stability": 0.015115979815954748,
+      "effective_samples": 23
+    },
+    {
+      "screen_point": [
+        230.39999389648438,
+        150.0
+      ],
+      "gaze_point": [
+        0.3649883568286896,
+        0.5384613275527954
+      ],
+      "tracking_quality": 0.5702900752314816,
+      "stability": 0.012477829897155365,
+      "effective_samples": 24
+    },
+    {
+      "screen_point": [
+        1689.5999755859375,
+        150.0
+      ],
+      "gaze_point": [
+        0.343262255191803,
+        0.5620007514953613
+      ],
+      "tracking_quality": 0.5712783260233918,
+      "stability": 0.016339025705268507,
+      "effective_samples": 19
+    },
+    {
+      "screen_point": [
+        1689.5999755859375,
+        930.0
+      ],
+      "gaze_point": [
+        0.3933373987674713,
+        0.5459986329078674
+      ],
+      "tracking_quality": 0.5933145254629629,
+      "stability": 0.012380873823227981,
+      "effective_samples": 24
+    },
+    {
+      "screen_point": [
+        230.39999389648438,
+        930.0
+      ],
+      "gaze_point": [
+        0.6245162487030029,
+        0.548677384853363
+      ],
+      "tracking_quality": 0.6024135561342593,
+      "stability": 0.009092786194135746,
+      "effective_samples": 24
+    }
+  ]
+}
